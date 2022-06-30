@@ -1,0 +1,9 @@
+baseURL = 'https://docs.yozuk.com/'
+languageCode = 'en-us'
+title = 'Yozuk'
+theme = 'hugo-book'
+
+[params]
+BookTheme = 'auto'
+BookLogo = 'logo.svg'
+BookRepo = 'https://github.com/yozuk/yozuk-docs'
