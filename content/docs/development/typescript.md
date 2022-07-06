@@ -1,8 +1,8 @@
 ---
-title: TypeScript
+title: TypeScript API
 ---
 
-# TypeScript
+# TypeScript API
 
 ```
 npm i @yozuk/yozuk-wasm

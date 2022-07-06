@@ -18,6 +18,8 @@ Unlike normal command-line tools, Yozuk uses a simple NLP approach to infer the 
 
 ## Development
 
+https://github.com/yozuk/yozuk
+
 Yozuk provides API for [Rust]({{< relref "/docs/development/rust" >}}) and 
 [TypeScript]({{< relref "/docs/development/typescript" >}}) (and JavaScript).
 

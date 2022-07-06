@@ -7,7 +7,7 @@ weight: 2
 
 ## Introduction
 
-If you prefer a terminal interface, Yozuk has a CLI application called `zuk`.
+Yozuk has a CLI application called `zuk`.
 
 There are pre-built binaries for some platforms, but you can build it from the source by yourself.
 
@@ -34,7 +34,6 @@ Hello world!
 3
 » 
 ```
-
 
 ## Installation
 
@@ -73,11 +72,15 @@ brew tap yozuk/yozuk
 brew install zuk
 ```
 
-#### WAPM
+#### WAPM (Experimental)
 
 ```Shell
 wapm install yozuk/zuk
 ```
+
+{{< hint warning >}}
+The WAPM binary runs on the Wasmer runtime and lacks some features available in the native app.
+{{< /hint >}}
 
 ### From Repository
 

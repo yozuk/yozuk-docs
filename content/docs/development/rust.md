@@ -1,8 +1,8 @@
 ---
-title: Rust
+title: Rust API
 ---
 
-# Rust
+# Rust API
 
 Yozuk is published as a Rust library, so it's really easy to integrate it with your Rust application.
 
