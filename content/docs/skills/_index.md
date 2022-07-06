@@ -1,4 +1,7 @@
 ---
-bookFlatSection: true
 weight: 10
 ---
+
+# Skills
+
+{{< section >}}
