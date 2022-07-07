@@ -24,7 +24,7 @@ SHA-1: ce45d3f41d0010ae30fe0fe285511665b255882f
 
 Without arguments, `zuk` starts as an interactive (REPL) mode.
 
-```
+```Shell
 $ zuk
 Hi. I'm Yozuk. How may I assist you?
 » SGVsbG8gd29ybGQh
@@ -86,8 +86,22 @@ The WAPM binary runs on the Wasmer runtime and lacks some features available in 
 
 #### Build Requirements
 
+{{< tabs "requrements" >}}
+{{< tab "macOS x64" >}} 
 - Rust toolchain: 1.60.0 or later
 - CMake: 3.12 or later
+{{< /tab >}}
+{{< tab "Linux x64" >}}
+- Rust toolchain: 1.60.0 or later
+- CMake: 3.12 or later
+- libseccomp
+  - Debian: `apt-get install libseccomp-dev`
+{{< /tab >}}
+{{< tab "Windows x64" >}}
+- Rust toolchain: 1.60.0 or later
+- CMake: 3.12 or later
+{{< /tab >}}
+{{< /tabs >}}
 
 ```Shell
 git clone https://github.com/yozuk/yozuk.git
