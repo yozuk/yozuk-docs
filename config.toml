@@ -7,3 +7,6 @@ theme = 'hugo-book'
 BookTheme = 'auto'
 BookLogo = 'logo.svg'
 BookRepo = 'https://github.com/yozuk/yozuk-docs'
+
+[markup.goldmark.renderer]
+unsafe = true

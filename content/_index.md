@@ -12,6 +12,12 @@ Unlike normal command-line tools, Yozuk uses a simple NLP approach to infer the 
 
 ## Getting Started
 
+[Web App]({{< relref "/docs/app/web" >}}) is the easiest way to try Yozuk.
+
+Yozuk provides a [Command Line App]({{< relref "/docs/app/cli" >}}) called `zuk`, if you prefer a terminal interface.
+
+Also, chatbot integrations are available for [Telegram]({{< relref "/docs/app/telegram" >}}), [Slack]({{< relref "/docs/app/slack" >}}) and [Discord]({{< relref "/docs/app/discord" >}}).
+
 ## Skills
 
 [Skill List]({{< relref "/docs/skills" >}})
@@ -22,5 +28,3 @@ https://github.com/yozuk/yozuk
 
 Yozuk provides API for [Rust]({{< relref "/docs/development/rust" >}}) and 
 [TypeScript]({{< relref "/docs/development/typescript" >}}) (and JavaScript).
-
-## FAQ
