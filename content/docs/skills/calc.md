@@ -6,17 +6,30 @@ title: Calc
 
 Simple Calculator
 
-## Integer Arithmetic
+## Examples
 
-```Shell
-$ zuk (1 + 2 + 3 + 4) * 5
+```
+(1 + 2 + 3 + 4) * 5
 ```
 
-## Decimal Arithmetic
-
-```Shell
-$ zuk 2900401.23365 * 6316714975174469.1697205940
 ```
+2900401.23365 * 6316714975174469.1697205940
+```
+
+```
+(123.45 + sqrt(2)) * 7.5
+```
+
+## Operators
+
+| Operator | Description |
+|---|---|
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Subdivision |
+| `%` | Modulo |
+| `^` `**` | Power |
 
 ## Functions
 
