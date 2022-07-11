@@ -2,16 +2,20 @@
 title: NanoID
 ---
 
-NanoID Generator
+# NanoID
+
+[NanoID](https://github.com/ai/nanoid) Generator
+
+## Examples
 
 ### Generate a NanoID
 
-```Shell
-$ zuk nanoid
+```
+nanoid
 ```
 
 ### Generate 5 NanoIDs
 
-```Shell
-$ zuk generate 5 nanoid
+```
+generate 5 nanoid
 ```

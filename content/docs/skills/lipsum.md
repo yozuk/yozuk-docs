@@ -2,22 +2,38 @@
 title: Lipsum
 ---
 
+# Lipsum
+
 Dummy Text Generator
 
-## Generate Text
+## Examples
+
+### Generate Text
 
 Generates 30 words lorem ipsum by default.
 
-```Shell
-$ zuk generate lipsum
-$ zuk lorem ipsum
-$ zuk dummy text
+```
+generate lipsum
 ```
 
-## Generate Text with Word Count
+```
+lorem ipsum
+```
 
-```Shell
-$ zuk generate 200 words lipsum
-$ zuk 200 words lorem ipsum
-$ zuk dummy text 200 words
+```
+dummy text
+```
+
+### Generate Text with Word Count
+
+```
+generate 200 words lipsum
+```
+
+```
+200 words lorem ipsum
+```
+
+```
+dummy text 200 words
 ```

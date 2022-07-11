@@ -2,10 +2,14 @@
 title: Geo
 ---
 
+# Geo
+
 Geological Utilities
 
-## Decode Open Location Code
+## Examples
 
-```Shell
-$ zuk 6PH57VP3+PR
+### Decode Open Location Code
+
+```
+6PH57VP3+PR
 ```

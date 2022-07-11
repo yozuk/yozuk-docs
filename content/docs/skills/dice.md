@@ -2,24 +2,34 @@
 title: Dice
 ---
 
+# Dice
+
 Dice Roller
 
-## Roll a die
+## Examples
+
+### Roll a die
 
 ```
-$ zuk roll dice
-$ zuk 🎲
+roll dice
 ```
 
-## Roll three dice
-
-```Shell
-$ zuk roll 3 dice
+```
+🎲
 ```
 
-## Dice Notation
+### Roll three dice
 
-```Shell
-$ zuk 2d10
-$ zuk (2d6 + 4d100) * 2
+```
+roll 3 dice
+```
+
+### Dice Notation
+
+```
+2d10
+```
+
+```
+(2d6 + 4d100) * 2
 ```

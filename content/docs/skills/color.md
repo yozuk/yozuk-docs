@@ -2,13 +2,30 @@
 title: Color
 ---
 
+# Color
+
 Color Converter
 
-## Convert CSS Color Notation
+## Examples
 
-```Shell
-$ zuk \#ff00ff
-$ zuk rgb(100, 200, 150)
-$ zuk rgb(100, 200, 150, .4)
-$ zuk hsl(150 50% 10%)
+### Convert CSS Color
+
+```
+#ff00ff
+```
+
+```
+rgb(100, 200, 150)
+```
+
+```
+rgb(100, 200, 150, .4)
+```
+
+```
+hsl(150 50% 10%)
+```
+
+```
+turquoise
 ```

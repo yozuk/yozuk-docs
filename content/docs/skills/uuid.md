@@ -2,16 +2,20 @@
 title: UUID
 ---
 
+# UUID
+
 UUID Generator
+
+## Examples
 
 ### Generate a UUID
 
-```Shell
-$ zuk uuid
+```
+uuid
 ```
 
 ### Generate 5 UUIDs
 
-```Shell
-$ zuk generate 5 uuid
+```
+generate 5 uuid
 ```

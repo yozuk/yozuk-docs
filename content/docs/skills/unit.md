@@ -2,22 +2,27 @@
 title: Unit
 ---
 
+# Unit
+
 Unit Converter
 
-## Convert Length
+## Examples
 
-```Shell
-# Length
-$ zuk 2000ft
+### Convert
 
-# Weight
-$ zuk 100lb
-
-# Storage Size
-$ zuk 20.5MiB
+```
+2000ft
 ```
 
-## Supported Units
+```
+100lb
+```
+
+```
+20.5MiB
+```
+
+## Units
 
 | Type | Units |
 |---|---|

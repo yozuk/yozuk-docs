@@ -2,19 +2,19 @@
 title: Digest
 ---
 
+# Digest
+
 Digest calculator
 
-## Calcurate MD5 and SHA-1
+## Examples
 
-```Shell
-# From text
-$ zuk "Hello world!" to md5 sha1
+### Calcurate MD5 and SHA-1
 
-# From pipe
-$ zuk md5 sha1 < data.txt
+```
+"Hello world!" to md5 sha1
 ```
 
-## Supported Algorithms
+## Algorithms
 
 | Algorithm | Keys |
 |---|---|
