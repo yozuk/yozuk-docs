@@ -9,3 +9,6 @@ weight: 10
 
 https://github.com/yozuk/yozuk-discord
 
+## Demo
+
+[![](https://img.shields.io/badge/Bot-Yozuk%236060-white?color=5865F2&logo=discord&logoColor=white)](https://discord.com/api/oauth2/authorize?client_id=989503720473636914&permissions=100352&scope=bot)
