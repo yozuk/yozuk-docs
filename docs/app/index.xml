@@ -8,5 +8,5 @@ Demo #</description></item><item><title>Slack Bot</title><link>https://docs.yozu
 Bot Configuration # Scopes # yozuk-slack requires the following permission scopes.
 app_mentions:read chat:write file:write im:history Event Subscriptions # yozuk-slack receives requests via the Slack Events API.
 You have to add the following bot user events.
-app_mention message.im</description></item><item><title>Telegram Bot</title><link>https://docs.yozuk.com/docs/app/telegram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.yozuk.com/docs/app/telegram/</guid><description>Telegram Bot # Repository # https://github.com/yozuk/yozuk-telegram
-Demo # https://t.me/YozukBot</description></item></channel></rss>
+app_mention message.im</description></item><item><title>Telegram Bot</title><link>https://docs.yozuk.com/docs/app/telegram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.yozuk.com/docs/app/telegram/</guid><description> Telegram Bot # Repository # https://github.com/yozuk/yozuk-telegram
+Demo #</description></item></channel></rss>
