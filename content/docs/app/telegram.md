@@ -11,4 +11,4 @@ https://github.com/yozuk/yozuk-telegram
 
 ## Demo
 
-https://t.me/YozukBot
+ [![Telegram: YozukBot](https://img.shields.io/badge/Telegram-@YozukBot-blue?logo=telegram)](https://t.me/YozukBot)
