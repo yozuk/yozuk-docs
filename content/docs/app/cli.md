@@ -42,17 +42,29 @@ Hello world!
 Pre-built binaries for x64 Windows, Linux and macOS are available on [Github](https://github.com/yozuk/yozuk/releases).
 
 {{< tabs "installation" >}}
-{{< tab "macOS x64" >}} 
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-macos-x64.tar.xz
-2. Run `tar xf zuk-macos-x64.tar.xz`
+{{< tab "macOS x86_64" >}} 
+1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-apple-darwin.tar.xz
+2. Run `tar xf zuk-x86_64-apple-darwin.tar.xz`
 {{< /tab >}}
-{{< tab "Linux x64" >}}
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-linux-x64.tar.xz
-2. Run `tar xf zuk-linux-x64.tar.xz`
+{{< tab "Windows x86_64" >}}
+1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-pc-windows-msvc.zip
+2. Extract `zuk-x86_64-pc-windows-msvc.zip`
 {{< /tab >}}
-{{< tab "Windows x64" >}}
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-windows-x64.zip
-2. Extract `zuk-windows-x64.zip`
+{{< tab "Linux x86_64" >}}
+1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-unknown-linux-gnu.tar.xz
+2. Run `tar xf zuk-x86_64-unknown-linux-gnu.tar.xz`
+{{< /tab >}}
+{{< tab "Linux armv7" >}}
+1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-armv7-unknown-linux-gnueabihf.tar.xz
+2. Run `tar xf zuk-armv7-unknown-linux-gnueabihf.tar.xz`
+{{< /tab >}}
+{{< tab "Linux aarch64" >}}
+1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-unknown-linux-gnu.tar.xz
+2. Run `tar xf zuk-aarch64-unknown-linux-gnu.tar.xz`
+{{< /tab >}}
+{{< tab "Linux aarch64 Android (Termux)" >}}
+1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-linux-android.tar.xz
+2. Run `tar xf zuk-aarch64-linux-android.tar.xz`
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -87,19 +99,19 @@ The WAPM binary runs on the Wasmer runtime and lacks some features available in 
 #### Build Requirements
 
 {{< tabs "requrements" >}}
-{{< tab "macOS x64" >}} 
+{{< tab "macOS x86_64" >}} 
 - Rust toolchain: 1.60.0 or later
 - CMake: 3.12 or later
 {{< /tab >}}
-{{< tab "Linux x64" >}}
+{{< tab "Windows x86_64" >}}
+- Rust toolchain: 1.60.0 or later
+- CMake: 3.12 or later
+{{< /tab >}}
+{{< tab "Linux x86_64" >}}
 - Rust toolchain: 1.60.0 or later
 - CMake: 3.12 or later
 - libseccomp
   - Debian: `apt-get install libseccomp-dev`
-{{< /tab >}}
-{{< tab "Windows x64" >}}
-- Rust toolchain: 1.60.0 or later
-- CMake: 3.12 or later
 {{< /tab >}}
 {{< /tabs >}}
 
