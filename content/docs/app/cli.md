@@ -39,34 +39,14 @@ Hello world!
 
 ### Pre-built Binaries
 
-Pre-built binaries for x64 Windows, Linux and macOS are available on [Github](https://github.com/yozuk/yozuk/releases).
-
-{{< tabs "installation" >}}
-{{< tab "macOS x86_64" >}} 
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-apple-darwin.tar.xz
-2. Run `tar xf zuk-x86_64-apple-darwin.tar.xz`
-{{< /tab >}}
-{{< tab "Windows x86_64" >}}
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-pc-windows-msvc.zip
-2. Extract `zuk-x86_64-pc-windows-msvc.zip`
-{{< /tab >}}
-{{< tab "Linux x86_64" >}}
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-unknown-linux-gnu.tar.xz
-2. Run `tar xf zuk-x86_64-unknown-linux-gnu.tar.xz`
-{{< /tab >}}
-{{< tab "Linux armv7" >}}
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-armv7-unknown-linux-gnueabihf.tar.xz
-2. Run `tar xf zuk-armv7-unknown-linux-gnueabihf.tar.xz`
-{{< /tab >}}
-{{< tab "Linux aarch64" >}}
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-unknown-linux-gnu.tar.xz
-2. Run `tar xf zuk-aarch64-unknown-linux-gnu.tar.xz`
-{{< /tab >}}
-{{< tab "Linux aarch64 Android (Termux)" >}}
-1. Download https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-linux-android.tar.xz
-2. Run `tar xf zuk-aarch64-linux-android.tar.xz`
-{{< /tab >}}
-{{< /tabs >}}
+- Windows x64 [zuk-x86_64-pc-windows-msvc.zip](https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-pc-windows-msvc.zip)
+- Windows ARM64 [zuk-aarch64-pc-windows-msvc.zip](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-pc-windows-msvc.zip)
+- MacOS Intel [zuk-x86_64-apple-darwin.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-apple-darwin.tar.xz)
+- MacOS Silicon [zuk-aarch64-apple-darwin.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-apple-darwin.tar.xz)
+- Linux x64 [zuk-x86_64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-unknown-linux-gnu.tar.xz)
+- Linux ARM64 (Raspberry Pi) [zuk-aarch64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-unknown-linux-gnu.tar.xz)
+- Linux ARMv7 (Raspberry Pi) [zuk-armv7-unknown-linux-gnueabihf.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-armv7-unknown-linux-gnueabihf.tar.xz)
+- Linux ARM64 Android (Termux) [zuk-aarch64-linux-android.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-linux-android.tar.xz)
 
 
 ### Package Manager
