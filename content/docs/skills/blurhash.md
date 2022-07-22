@@ -8,6 +8,6 @@ title: BlurHash
 
 ## Examples
 
-```
-BLDdqP~BS16_Efr@
-```
+<pre class="example">
+<code>BLDdqP~BS16_Efr@</code>
+</pre>

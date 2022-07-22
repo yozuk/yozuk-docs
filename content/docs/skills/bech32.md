@@ -10,12 +10,12 @@ title: Bech32
 
 ### Decode Bech32
 
-```
-b321fpjkcmr0yptk7unvvsss8ctgvx
-```
+<pre class="example">
+<code>b321fpjkcmr0yptk7unvvsss8ctgvx</code>
+</pre>
 
 ### Decode Bech32m
 
-```
-b32m1fpjkcmr0yptk7unvvssserxuym
-```
+<pre class="example">
+<code>b32m1fpjkcmr0yptk7unvvssserxuym</code>
+</pre>

@@ -10,12 +10,13 @@ Prime Number Tester
 
 ### Test Primality
 
-```
-Is 34534321 a prime number?
-```
+<pre class="example">
+<code>Is 34534321 a prime number?</code>
+</pre>
 
-```
-is 37975227936943673922808872755445627854565536638199 prime?
-```
+<pre class="example">
+<code>is 37975227936943673922808872755445627854565536638199 prime?</code>
+</pre>
+
 
 If a given integer is larger than {{< katex >}}2^{32}-1{{< /katex >}}, its primality will be checked by the [Miller–Rabin primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) and the result could be a false-positive.

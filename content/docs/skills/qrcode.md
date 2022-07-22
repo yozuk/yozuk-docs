@@ -8,10 +8,10 @@ QRCode Generator
 
 ### Examples
 
-```
-https://yozuk.com/ to qr
-```
+<pre class="example">
+<code>https://yozuk.com/ to qr</code>
+</pre>
 
-```
-"Hello World!" to QRCode
-```
+<pre class="example">
+<code>"Hello World!" to QRCode</code>
+</pre>

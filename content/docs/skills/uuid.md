@@ -10,12 +10,12 @@ UUID Generator
 
 ### Generate a UUID
 
-```
-uuid
-```
+<pre class="example">
+<code>uuid</code>
+</pre>
 
 ### Generate 5 UUIDs
 
-```
-generate 5 uuid
-```
+<pre class="example">
+<code>generate 5 uuid</code>
+</pre>
