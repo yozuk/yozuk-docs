@@ -1,6 +1,7 @@
 import { Yozuk } from '@yozuk/yozuk-wasm/web'
 import { Output, Result, Block } from '@yozuk/yozuk-wasm/output'
 import { encode } from 'base64-arraybuffer';
+import { output } from '../webpack.config';
 
 const yo = new Yozuk()
 
@@ -19,7 +20,7 @@ document.addEventListener("readystatechange", (event) => {
             code.appendChild(echo);
 
             const loading = document.createElement("code");
-            loading.appendChild(document.createTextNode("Loading..."));
+            loading.appendChild(document.createTextNode("Computing..."));
 
             pre.appendChild(code);
             pre.appendChild(loading);
@@ -36,7 +37,8 @@ document.addEventListener("readystatechange", (event) => {
 function renderResult(result: Result): HTMLElement[] {
     switch (result.type) {
         case "ok":
-            return result.outputs.flatMap(renderOutput)
+            const hasPrimary = result.outputs.some((output) => output.mode == "primary");
+            return result.outputs.filter((output) => !hasPrimary || output.mode == "primary").flatMap(renderOutput)
         default:
             return []
     }
