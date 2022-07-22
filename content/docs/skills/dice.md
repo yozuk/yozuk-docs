@@ -10,13 +10,14 @@ Dice Roller
 
 ### Roll a die
 
-```
-roll dice
-```
+<pre class="example">
+<code>roll dice</code>
+</pre>
 
-```
-🎲
-```
+<pre class="example">
+<code>🎲</code>
+</pre>
+
 
 ### Roll three dice
 

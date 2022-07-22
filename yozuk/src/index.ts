@@ -10,7 +10,12 @@ document.addEventListener("readystatechange", (event) => {
             const content = pre.textContent;
             pre.textContent = ''
             const code = document.createElement("code");
-            const echo = document.createTextNode("» " + content);
+            const marker = document.createElement("span");
+            marker.appendChild(document.createTextNode("»»» "));
+            marker.style.color = "orange";
+
+            const echo = document.createTextNode(content);
+            code.appendChild(marker);
             code.appendChild(echo);
 
             const loading = document.createElement("code");
@@ -39,6 +44,7 @@ function renderResult(result: Result): HTMLElement[] {
 
 function renderOutput(output: Output): HTMLElement[] {
     const div = document.createElement("div");
+    div.style.marginTop = "0.5em";
     for (const out of output.blocks.flatMap(renderBlock)) {
         div.appendChild(out);
     }
