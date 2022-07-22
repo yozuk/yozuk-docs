@@ -14,14 +14,14 @@ This skill detects domain names with non-ASCII characters and encodes them into 
 
 Domain names must end with TLD listed in https://www.iana.org/domains/root/db.
 
-```
-🌵🌵🌵.com
-```
+<pre class="example">
+<code>🌵🌵🌵.com</code>
+</pre>
 
 ### Decode
 
 An input string must start with `xn--`.
 
-```
-xn--3o8h
-```
+<pre class="example">
+<code>xn--3o8h</code>
+</pre>

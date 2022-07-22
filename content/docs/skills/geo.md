@@ -10,6 +10,6 @@ Geological Utilities
 
 ### Decode Open Location Code
 
-```
-6PH57VP3+PR
-```
+<pre class="example">
+<code>6PH57VP3+PR</code>
+</pre>

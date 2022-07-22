@@ -10,17 +10,17 @@ Unit Converter
 
 ### Convert
 
-```
-2000ft
-```
+<pre class="example">
+<code>2000ft</code>
+</pre>
 
-```
-100lb
-```
+<pre class="example">
+<code>100lb</code>
+</pre>
 
-```
-20.5MiB
-```
+<pre class="example">
+<code>20.5MiB</code>
+</pre>
 
 ## Units
 

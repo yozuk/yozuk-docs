@@ -10,12 +10,12 @@ title: NanoID
 
 ### Generate a NanoID
 
-```
-nanoid
-```
+<pre class="example">
+<code>nanoid</code>
+</pre>
 
 ### Generate 5 NanoIDs
 
-```
-generate 5 nanoid
-```
+<pre class="example">
+<code>generate 5 nanoid</code>
+</pre>

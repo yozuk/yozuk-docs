@@ -8,14 +8,14 @@ Physical and mathematical constants
 
 ## Examples
 
-```
-π
-```
+<pre class="example">
+<code>π</code>
+</pre>
 
-```
-How fast the speed of light?
-```
+<pre class="example">
+<code>How fast the speed of light?</code>
+</pre>
 
-```
-mass of electron
-```
+<pre class="example">
+<code>mass of electron</code>
+</pre>

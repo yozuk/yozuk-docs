@@ -10,14 +10,14 @@ Numeric Converter
 
 ### Convert Base
 
-```
-0xff
-```
+<pre class="example">
+<code>0xff</code>
+</pre>
 
-```
-0b11111111
-```
+<pre class="example">
+<code>0b11111111</code>
+</pre>
 
-```
-0o377
-```
+<pre class="example">
+<code>0o377</code>
+</pre>

@@ -20,16 +20,16 @@ roll dice
 
 ### Roll three dice
 
-```
-roll 3 dice
-```
+<pre class="example">
+<code>roll 3 dice</code>
+</pre>
 
 ### Dice Notation
 
-```
-2d10
-```
+<pre class="example">
+<code>2d10</code>
+</pre>
 
-```
-(2d6 + 4d100) * 2
-```
+<pre class="example">
+<code>(2d6 + 4d100) * 2</code>
+</pre>

@@ -10,12 +10,12 @@ Time Converter
 
 ### Get Current Time
 
-```
-now
-```
+<pre class="example">
+<code>now</code>
+</pre>
 
 ### Convert UNIX Time
 
-```
-1657635106
-```
+<pre class="example">
+<code>1657635106</code>
+</pre>

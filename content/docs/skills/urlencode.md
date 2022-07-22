@@ -8,6 +8,6 @@ URL Encoding Decoder
 
 ## Examples
 
-```
-Hi%21%20I%27m%20Yozuk.
-```
+<pre class="example">
+<code>Hi%21%20I%27m%20Yozuk.</code>
+</pre>

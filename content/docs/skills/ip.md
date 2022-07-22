@@ -8,10 +8,10 @@ IP Address Converter
 
 ## Examples
 
-```
-127.0.0.1
-```
+<pre class="example">
+<code>127.0.0.1</code>
+</pre>
 
-```
-0000:0000:0000:0000:0000:ffff:7f00:0001
-```
+<pre class="example">
+<code>0000:0000:0000:0000:0000:ffff:7f00:0001</code>
+</pre>

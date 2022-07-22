@@ -10,22 +10,22 @@ Color Converter
 
 ### Convert CSS Color
 
-```
-#ff00ff
-```
+<pre class="example">
+<code>#ff00ff</code>
+</pre>
 
-```
-rgb(100, 200, 150)
-```
+<pre class="example">
+<code>rgb(100, 200, 150)</code>
+</pre>
 
-```
-rgb(100, 200, 150, .4)
-```
+<pre class="example">
+<code>rgb(100, 200, 150, .4)</code>
+</pre>
 
-```
-hsl(150 50% 10%)
-```
+<pre class="example">
+<code>hsl(150 50% 10%)</code>
+</pre>
 
-```
-turquoise
-```
+<pre class="example">
+<code>turquoise</code>
+</pre>

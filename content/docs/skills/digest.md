@@ -10,9 +10,9 @@ Digest calculator
 
 ### Calcurate MD5 and SHA-1
 
-```
-"Hello world!" to md5 sha1
-```
+<pre class="example">
+<code>"Hello world!" to md5 sha1</code>
+</pre>
 
 ## Algorithms
 

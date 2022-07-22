@@ -12,28 +12,28 @@ Dummy Text Generator
 
 Generates 30 words lorem ipsum by default.
 
-```
-generate lipsum
-```
+<pre class="example">
+<code>generate lipsum</code>
+</pre>
 
-```
-lorem ipsum
-```
+<pre class="example">
+<code>lorem ipsum</code>
+</pre>
 
-```
-dummy text
-```
+<pre class="example">
+<code>dummy text</code>
+</pre>
 
 ### Generate Text with Word Count
 
-```
-generate 200 words lipsum
-```
+<pre class="example">
+<code>generate 200 words lipsum</code>
+</pre>
 
-```
-200 words lorem ipsum
-```
+<pre class="example">
+<code>200 words lorem ipsum</code>
+</pre>
 
-```
-dummy text 200 words
-```
+<pre class="example">
+<code>dummy text 200 words</code>
+</pre>
