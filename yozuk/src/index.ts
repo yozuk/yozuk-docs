@@ -11,8 +11,8 @@ document.addEventListener("readystatechange", (event) => {
             const code = document.createElement("code");
             const echo = document.createTextNode("» " + content);
             code.appendChild(echo);
+            pre.appendChild(code);
             yo.exec(content).then((result) => {
-                pre.appendChild(code);
                 for (const data of renderResult(result)) {
                     pre.appendChild(data);
                 }
