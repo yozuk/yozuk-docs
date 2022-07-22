@@ -11,7 +11,11 @@ Unicode Decoder
 ### Decode a Grapheme
 
 <pre class="example">
-<code>🏳️‍🌈</code>
+<code>é</code>
+</pre>
+
+<pre class="example">
+<code>😶‍🌫️</code>
 </pre>
 
 <pre class="example">

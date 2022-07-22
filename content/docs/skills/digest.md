@@ -8,10 +8,16 @@ Digest calculator
 
 ## Examples
 
-### Calcurate MD5 and SHA-1
+### Calculate MD5 and SHA-1
 
 <pre class="example">
 <code>"Hello world!" to md5 sha1</code>
+</pre>
+
+### Calculate SHA-3 Family
+
+<pre class="example">
+<code>"Hello world!" to sha3</code>
 </pre>
 
 ## Algorithms
