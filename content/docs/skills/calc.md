@@ -8,17 +8,17 @@ Simple Calculator
 
 ## Examples
 
-```
-(1 + 2 + 3 + 4) * 5
-```
+<pre class="example">
+<code>(1 + 2 + 3 + 4) * 5</code>
+</pre>
 
-```
-2900401.23365 * 6316714975174469.1697205940
-```
+<pre class="example">
+<code>2900401.23365 * 6316714975174469.1697205940</code>
+</pre>
 
-```
-(123.45 + sqrt(2)) * 7.5
-```
+<pre class="example">
+<code>(123.45 + sqrt(2)) * 7.5</code>
+</pre>
 
 ## Operators
 

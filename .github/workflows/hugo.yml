@@ -15,6 +15,9 @@ jobs:
         with:
           extended: true
 
+      - name: Webpack
+        run: (cd yozuk && npm ci && npx webpack --mode=production)
+
       - name: Build
         run: hugo --minify
 
