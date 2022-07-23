@@ -63,13 +63,40 @@ function renderOutput(output: Output): HTMLElement[] {
     return [div];
 }
 
+type Section = {
+    text: string,
+    value: boolean,
+};
+
 function renderBlock(block: Block): HTMLElement[] {
     const div = document.createElement("div");
     if (block.type == "data") {
         if (typeof block.data === 'string') {
+            let highlights = block.highlights || [{ kind: "value", range: { start: 0, end: block.data.length } }];
+            let sections: Section[] = [];
+            let offset = 0;
+            for (const highlight of highlights) {
+                const text = block.data.slice(offset, highlight.range.start);
+                if (text.length > 0) {
+                    sections.push({ text, value: false });
+                }
+                sections.push({ text: block.data.slice(highlight.range.start, highlight.range.end), value: true });
+                offset = highlight.range.end;
+            }
+            const text = block.data.slice(offset);
+            if (text.length > 0) {
+                sections.push({ text, value: false });
+            }
             const code = document.createElement("code");
-            const result = document.createTextNode(block.data);
-            code.appendChild(result);
+            for (const section of sections) {
+                const span = document.createElement("span");
+                if (!section.value) {
+                    span.style.opacity = "0.6";
+                }
+                const text = document.createTextNode(section.text);
+                span.appendChild(text);
+                code.appendChild(span);
+            }
             div.appendChild(code);
         } else if (block.media_type.startsWith("image/")) {
             const image = document.createElement('img');
