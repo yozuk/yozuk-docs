@@ -47,6 +47,16 @@ function renderResult(result: Result): HTMLElement[] {
 function renderOutput(output: Output): HTMLElement[] {
     const div = document.createElement("div");
     div.style.marginTop = "0.5em";
+
+    for (const meta of output.metadata) {
+        if (meta.type == "color") {
+            const color = document.createElement("code");
+            color.appendChild(document.createTextNode("       "));
+            color.style.backgroundColor = meta.color;
+            div.appendChild(color);
+        }
+    }
+
     for (const out of output.blocks.flatMap(renderBlock)) {
         div.appendChild(out);
     }
