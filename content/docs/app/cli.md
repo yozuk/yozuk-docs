@@ -38,10 +38,11 @@ Hello world!
 ## Installation
 
 ### Pre-built Binaries
+
 - Windows x64 [zuk-x86_64-pc-windows-msvc.zip](https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-pc-windows-msvc.zip)
 - Windows ARM64 [zuk-aarch64-pc-windows-msvc.zip](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-pc-windows-msvc.zip)
 - MacOS Intel [zuk-x86_64-apple-darwin.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-apple-darwin.tar.xz)
-- MacOS Silicon [zuk-aarch64-apple-darwin.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-apple-darwin.tar.xz)
+- MacOS Apple Silicon [zuk-aarch64-apple-darwin.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-apple-darwin.tar.xz)
 - Linux x64 [zuk-x86_64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-unknown-linux-gnu.tar.xz)
 - Linux ARM64 [zuk-aarch64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-unknown-linux-gnu.tar.xz)
 
@@ -109,5 +110,5 @@ cargo install .
 - `rayon` (default) - Enables parallelization.
 - `rpc` (default) - Enables RPC server mode.
 - `secure-context` (default) - Restricts available system calls for further security.
-This feature takes effect only on Linux.
+This feature takes effect only on x86_64 Linux.
 
