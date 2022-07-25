@@ -9,7 +9,7 @@ weight: 2
 
 Yozuk has a CLI application called `zuk`.
 
-There are pre-built binaries for some platforms, but you can build it from the source by yourself.
+<script id="asciicast-yq3IuDkB3QBXa5yKrWMS63fXo" src="https://asciinema.org/a/yq3IuDkB3QBXa5yKrWMS63fXo.js" async></script>
 
 `zuk` has no specific syntax for input arguments.
 
@@ -36,6 +36,8 @@ Hello world!
 ```
 
 ## Installation
+
+There are pre-built binaries for some platforms, but you can build it from the source by yourself.
 
 ### Pre-built Binaries
 
