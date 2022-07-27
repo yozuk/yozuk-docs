@@ -14,6 +14,10 @@ UUID Generator
 <code>uuid</code>
 </pre>
 
+<pre class="example">
+<code>generate uppercase uuid</code>
+</pre>
+
 ### Generate 5 UUIDs
 
 <pre class="example">

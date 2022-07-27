@@ -27,13 +27,13 @@ Generates 30 words lorem ipsum by default.
 ### Generate Text with Word Count
 
 <pre class="example">
-<code>generate 200 words lipsum</code>
+<code>generate 10 words lipsum</code>
 </pre>
 
 <pre class="example">
-<code>200 words lorem ipsum</code>
+<code>80 words lorem ipsum</code>
 </pre>
 
 <pre class="example">
-<code>dummy text 200 words</code>
+<code>dummy text 60 words</code>
 </pre>

@@ -6,6 +6,14 @@ import { output } from '../webpack.config';
 const yo = new Yozuk()
 
 document.addEventListener("readystatechange", (event) => {
+    for (const quote of document.querySelectorAll("blockquote")) {
+        if (quote.textContent.trim().length == 0) {
+            quote.parentNode.removeChild(quote);
+        }
+    }
+})
+
+document.addEventListener("readystatechange", (event) => {
     if (document.readyState == "complete") {
         for (const pre of document.querySelectorAll("pre.example")) {
             const content = pre.textContent;
