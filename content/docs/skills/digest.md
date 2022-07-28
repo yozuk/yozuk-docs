@@ -24,6 +24,7 @@ Digest calculator
 
 | Algorithm | Keys |
 |---|---|
+| MD4 | `md4` |
 | MD5 | `md5` |
 | SHA-1 | `sha1` `sha-1` |
 | SHA-224 | `sha-224` `sha224` `sha2` `sha-2` |
