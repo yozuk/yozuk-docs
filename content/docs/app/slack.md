@@ -5,6 +5,10 @@ weight: 10
 
 # Slack Bot
 
+## Pre-built Binaries
+
+- Linux x64 [yozuk-slack-x86_64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/yozuk-slack-x86_64-unknown-linux-gnu.tar.xz)
+
 ## Repository
 
 https://github.com/yozuk/yozuk-slack
