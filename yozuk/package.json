@@ -15,6 +15,6 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
-    "@yozuk/yozuk-wasm": "^0.21.2"
+    "@yozuk/yozuk-wasm": "^0.21.3"
   }
 }
