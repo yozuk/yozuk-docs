@@ -54,15 +54,17 @@ document.addEventListener("readystatechange", (event) => {
             }
 
             const loading = document.createElement("div");
-            loading.appendChild(document.createTextNode("Computing..."));
+            const loadingInner = document.createElement("code");
+            loading.appendChild(loadingInner);
+            loadingInner.appendChild(document.createTextNode("Computing..."));
 
             pre.appendChild(code);
             pre.appendChild(loading);
             yo.exec(content, files.map(({ data }) => data)).then((result) => {
-                pre.removeChild(loading);
                 for (const data of renderResult(result)) {
                     pre.appendChild(data);
                 }
+                pre.removeChild(loading);
             })
         }
     }
