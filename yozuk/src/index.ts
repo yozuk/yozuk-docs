@@ -53,7 +53,7 @@ document.addEventListener("readystatechange", (event) => {
                 code.appendChild(tag);
             }
 
-            const loading = document.createElement("code");
+            const loading = document.createElement("div");
             loading.appendChild(document.createTextNode("Computing..."));
 
             pre.appendChild(code);
