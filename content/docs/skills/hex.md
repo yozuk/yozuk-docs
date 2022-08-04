@@ -10,8 +10,16 @@ Hexadecimal  Encoder / Decoder
 
 ### Encode
 
+#### From text
+
 <pre class="example">
 <code>"Hello world!" to hex</code>
+</pre>
+
+#### From a file
+
+<pre class="example">
+<code>hex</code><span class="file" data-filename="data.txt">SGVsbG8gd29ybGQh</span>
 </pre>
 
 ### Decode
