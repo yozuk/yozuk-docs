@@ -1,6 +1,6 @@
 import { Yozuk } from '@yozuk/yozuk-wasm/web'
 import { Output, Result, Block } from '@yozuk/yozuk-wasm/output'
-import { encode } from 'base64-arraybuffer';
+import { encode, decode } from 'base64-arraybuffer';
 import { output } from '../webpack.config';
 
 const yo = new Yozuk()
@@ -16,8 +16,15 @@ document.addEventListener("readystatechange", (event) => {
 document.addEventListener("readystatechange", (event) => {
     if (document.readyState == "complete") {
         for (const pre of document.querySelectorAll("pre.example")) {
-            const content = pre.textContent;
-            pre.textContent = ''
+            const files = [];
+            for (const file of pre.querySelectorAll("span.file").values()) {
+                const filename = file.getAttribute('data-filename');
+                files.push({ data: new Uint8Array(decode(file.textContent)), filename });
+            }
+
+            const query = pre.querySelector('code');
+            const content = query.textContent;
+            pre.textContent = '';
             const code = document.createElement("code");
             const marker = document.createElement("span");
             marker.appendChild(document.createTextNode("»»» "));
@@ -27,12 +34,31 @@ document.addEventListener("readystatechange", (event) => {
             code.appendChild(marker);
             code.appendChild(echo);
 
+            for (const file of files) {
+                const image = document.createElement('img');
+                image.setAttribute('src', '/clip.svg');
+                image.width = 12;
+                image.height = 12;
+                const tag = document.createElement("span");
+                tag.appendChild(image);
+                tag.appendChild(document.createTextNode(file.filename));
+                tag.style.backgroundColor = "orange";
+                tag.style.color = '#333';
+                tag.style.marginLeft = '15px';
+                tag.style.paddingLeft = '3px';
+                tag.style.paddingRight = '3px';
+                tag.style.paddingTop = '1px';
+                tag.style.paddingBottom = '1px';
+                tag.style.borderRadius = '3px';
+                code.appendChild(tag);
+            }
+
             const loading = document.createElement("code");
             loading.appendChild(document.createTextNode("Computing..."));
 
             pre.appendChild(code);
             pre.appendChild(loading);
-            yo.exec(content).then((result) => {
+            yo.exec(content, files.map(({ data }) => data)).then((result) => {
                 pre.removeChild(loading);
                 for (const data of renderResult(result)) {
                     pre.appendChild(data);
