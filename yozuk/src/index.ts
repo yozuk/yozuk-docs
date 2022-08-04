@@ -71,8 +71,19 @@ document.addEventListener("readystatechange", (event) => {
 function renderResult(result: Result): HTMLElement[] {
     switch (result.type) {
         case "ok":
-            const hasPrimary = result.outputs.some((output) => output.mode == "primary");
-            return result.outputs.filter((output) => !hasPrimary || output.mode == "primary").flatMap(renderOutput)
+            {
+                const hasPrimary = result.outputs.some((output) => output.mode == "primary");
+                return result.outputs.filter((output) => !hasPrimary || output.mode == "primary").flatMap(renderOutput)
+            }
+        case "fail":
+            {
+                const hasPrimary = result.outputs.some((output) => output.mode == "primary");
+                return result.outputs.filter((output) => !hasPrimary || output.mode == "primary").flatMap(renderOutput)
+            }
+        case "no_command":
+            const elem = document.createElement("code");
+            elem.appendChild(document.createTextNode("No Command"));
+            return [elem]
         default:
             return []
     }
