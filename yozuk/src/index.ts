@@ -1,7 +1,6 @@
 import { Yozuk } from '@yozuk/yozuk-wasm/web'
 import { Output, Result, Block } from '@yozuk/yozuk-wasm/output'
 import { encode, decode } from 'base64-arraybuffer';
-import { output } from '../webpack.config';
 
 const yo = new Yozuk()
 
@@ -23,8 +22,10 @@ document.addEventListener("readystatechange", (event) => {
             }
 
             const query = pre.querySelector('code');
-            const content = query.textContent;
-            pre.textContent = '';
+            const content = query.innerText;
+            while (pre.firstChild) {
+                pre.removeChild(pre.firstChild);
+            }
             const code = document.createElement("code");
             const marker = document.createElement("span");
             marker.appendChild(document.createTextNode("»»» "));
@@ -83,9 +84,12 @@ function renderResult(result: Result): HTMLElement[] {
                 return result.outputs.filter((output) => !hasPrimary || output.mode == "primary").flatMap(renderOutput)
             }
         case "no_command":
+            const div = document.createElement("div");
+            div.style.marginTop = "0.5em";
             const elem = document.createElement("code");
             elem.appendChild(document.createTextNode("No Command"));
-            return [elem]
+            div.appendChild(elem);
+            return [div]
         default:
             return []
     }
