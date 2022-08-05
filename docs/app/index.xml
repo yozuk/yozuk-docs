@@ -9,5 +9,7 @@ Bot Send Messages Attach Files Read Message History Permissions Integer: 100352<
 Bot Configuration # Scopes # yozuk-slack requires the following permission scopes.
 app_mentions:read chat:write file:write im:history Event Subscriptions # yozuk-slack receives requests via the Slack Events API.
 You have to add the following bot user events.
-app_mention message.im</description></item><item><title>Telegram Bot</title><link>https://docs.yozuk.com/docs/app/telegram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.yozuk.com/docs/app/telegram/</guid><description> Telegram Bot # Pre-built Binaries # Linux x64 yozuk-telegram-x86_64-unknown-linux-gnu.tar.xz Repository # https://github.com/yozuk/yozuk-telegram
-Demo #</description></item></channel></rss>
+app_mention message.im</description></item><item><title>Telegram Bot</title><link>https://docs.yozuk.com/docs/app/telegram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.yozuk.com/docs/app/telegram/</guid><description>Telegram Bot # Demo # Usage # Processing files # Some commands accept files as input. You can write command text in the caption field.
+Be careful of image compression
+Choose Send without compression when you want to get a digest of an image file, or Yozuk will return the digest of the compressed image, not that of the original file.
+Pre-built Binaries # Linux x64 yozuk-telegram-x86_64-unknown-linux-gnu.tar.xz Repository # https://github.</description></item></channel></rss>
