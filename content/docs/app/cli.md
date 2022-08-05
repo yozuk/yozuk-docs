@@ -48,12 +48,12 @@ There are pre-built binaries for some platforms, but you can build it from the s
 - Linux x64 [zuk-x86_64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-x86_64-unknown-linux-gnu.tar.xz)
 - Linux ARM64 [zuk-aarch64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-unknown-linux-gnu.tar.xz)
 
-{{< expand "Other Platforms" "..." >}}
+{{< details "Other Platforms" "..." >}}
 
 - Linux ARMv7 [zuk-armv7-unknown-linux-gnueabihf.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-armv7-unknown-linux-gnueabihf.tar.xz)
 - Linux ARM64 Android (Termux) [zuk-aarch64-linux-android.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/zuk-aarch64-linux-android.tar.xz)
 
-{{< /expand >}}
+{{< /details >}}
 
 ### Package Manager
 
@@ -84,22 +84,15 @@ The WAPM binary runs on the Wasmer runtime and lacks some features available in 
 
 #### Build Requirements
 
-{{< tabs "requrements" >}}
-{{< tab "macOS x86_64" >}} 
 - Rust toolchain: 1.60.0 or later
 - CMake: 3.12 or later
-{{< /tab >}}
-{{< tab "Windows x86_64" >}}
-- Rust toolchain: 1.60.0 or later
-- CMake: 3.12 or later
-{{< /tab >}}
-{{< tab "Linux x86_64" >}}
-- Rust toolchain: 1.60.0 or later
-- CMake: 3.12 or later
+
+##### Linux only
+
 - libseccomp
   - Debian: `apt-get install libseccomp-dev`
-{{< /tab >}}
-{{< /tabs >}}
+
+#### Command
 
 ```Shell
 git clone https://github.com/yozuk/yozuk.git
