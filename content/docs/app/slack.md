@@ -5,6 +5,14 @@ weight: 10
 
 # Slack Bot
 
+## Usage
+
+### Processing files
+
+Some commands accept files as input. You can send command text with attachments.
+
+<img alt="File upload dialog" src="/images/yozuk-slack-file.png" width="314" />
+
 ## Pre-built Binaries
 
 - Linux x64 [yozuk-slack-x86_64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/yozuk-slack-x86_64-unknown-linux-gnu.tar.xz)
