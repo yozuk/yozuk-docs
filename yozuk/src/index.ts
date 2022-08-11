@@ -156,6 +156,13 @@ function renderBlock(block: Block): HTMLElement[] {
                 `data:${block.media_type};base64,${encode(block.data)}`,
             );
             div.appendChild(image);
+        } else {
+            const code = document.createElement("code");
+            const text = document.createTextNode(encode(block.data));
+            const span = document.createElement("span");
+            span.appendChild(text);
+            code.appendChild(span);
+            div.appendChild(code);
         }
     }
     return [div]
