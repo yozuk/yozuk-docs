@@ -34,7 +34,7 @@ For example...
 
     <pre class="example"><code>8J+MuPCfjLzwn42E8J+Mvw==</code></pre>
 
-- And so on!
+- ...and so on!
 
   The comprehensive [skill list is here]({{< relref "/docs/skills" >}}).
 
