@@ -15,11 +15,11 @@ Some commands accept files as input. You can send command text with attachments.
 
 ## Pre-built Binaries
 
-- Linux x64 [yozuk-slack-x86_64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/yozuk/releases/latest/download/yozuk-slack-x86_64-unknown-linux-gnu.tar.xz)
+- Linux x64 [yozuk-slack-x86_64-unknown-linux-gnu.tar.xz](https://github.com/yozuk/bots/releases/latest/download/yozuk-slack-x86_64-unknown-linux-gnu.tar.xz)
 
 ## Repository
 
-https://github.com/yozuk/yozuk-slack
+https://github.com/yozuk/bots/tree/main/slack
 
 ## Bot Configuration
 
