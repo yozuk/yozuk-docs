@@ -4,7 +4,7 @@ title: JWT
 
 # JWT
 
-![JWT Badge](http://jwt.io/img/badge-compatible.svg)
+![JWT Badge](https://jwt.io/img/badge-compatible.svg)
 
 [JSON Web Tokens](https://jwt.io/) Decoder
 
