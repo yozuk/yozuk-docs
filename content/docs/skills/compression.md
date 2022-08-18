@@ -21,3 +21,4 @@ Lossless compressions
 | Zlib | `zlib` |
 | Gzip | `gzip` `gz` |
 | Deflate | `deflate` |
+| Snappy | `snappy` |
