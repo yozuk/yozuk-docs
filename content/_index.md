@@ -45,10 +45,3 @@ For example...
 Yozuk provides a [Command Line App]({{< relref "/docs/app/cli" >}}) called `zuk`, if you prefer a terminal interface.
 
 Also, chatbot integrations are available for [Telegram]({{< relref "/docs/app/telegram" >}}), [Slack]({{< relref "/docs/app/slack" >}}) and [Discord]({{< relref "/docs/app/discord" >}}).
-
-## Development
-
-https://github.com/yozuk/yozuk
-
-Yozuk provides API for [Rust]({{< relref "/docs/development/rust" >}}) and 
-[TypeScript]({{< relref "/docs/development/typescript" >}}) (and JavaScript).
