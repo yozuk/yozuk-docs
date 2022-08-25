@@ -36,4 +36,4 @@ Lossless compressions
 | Gzip | `gzip` `gz` |
 | Deflate | `deflate` |
 | Snappy | `snappy` |
-| Lz4 | `lz4` |
+| LZ4 | `lz4` |

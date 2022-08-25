@@ -11,7 +11,15 @@ Unit Converter
 ### Convert
 
 <pre class="example">
-<code>2000ft</code>
+<code>2000ft to km</code>
+</pre>
+
+<pre class="example">
+<code>20.5MiB to kB</code>
+</pre>
+
+<pre class="example">
+<code>1oz. to ng</code>
 </pre>
 
 <pre class="example">
@@ -19,7 +27,7 @@ Unit Converter
 </pre>
 
 <pre class="example">
-<code>20.5MiB</code>
+<code>1000hPa</code>
 </pre>
 
 ## Units

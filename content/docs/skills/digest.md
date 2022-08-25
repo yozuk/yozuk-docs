@@ -43,10 +43,6 @@ Digest calculator
 | SHA-3-256 | `sha3-256` `sha3` `sha-3` |
 | SHA-3-384 | `sha3-384` `sha3` `sha-3` |
 | SHA-3-512 | `sha3-512` `sha3` `sha-3` |
-| Keccak-224 | `keccak-224` `sha3` `sha-3` |
-| Keccak-256 | `keccak-256` `sha3` `sha-3` |
-| Keccak-384 | `keccak-384` `sha3` `sha-3` |
-| Keccak-512 | `keccak-512` `sha3` `sha-3` |
 | CRC-32/ISO-HDLC | `crc32` `crc-32` `crc32-iso` `crc-32-iso` `crc-32-iso-hdlc` `crc-32/iso-hdlc` `crc32/iso-hdlc` `crc32/iso` |
 | BLAKE2-S-256 | `blake2s256` `blake2` |
 | BLAKE2-B-512 | `blake2b512` `blake2` |

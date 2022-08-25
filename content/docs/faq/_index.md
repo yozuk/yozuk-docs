@@ -8,7 +8,7 @@ bookFlatSection: true
 
 ## Natural Language Processing
 
-### Does Yozuk use AIaaS (Artificial Intelligence as a service) such as Amazon Lex or Google Cloud NLP?
+### Does Yozuk use AIaaS (Artificial Intelligence as a Service) such as Amazon Lex or Google Cloud NLP?
 
 No, it doesn’t. Yozuk has the internal NLP engine.
 
