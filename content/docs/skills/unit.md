@@ -19,7 +19,15 @@ Unit Converter
 </pre>
 
 <pre class="example">
+<code>3.5 inch to centimeter</code>
+</pre>
+
+<pre class="example">
 <code>1oz. to ng</code>
+</pre>
+
+<pre class="example">
+<code>12 mebibytes to GB</code>
 </pre>
 
 <pre class="example">
@@ -34,7 +42,7 @@ Unit Converter
 
 | Type | Units |
 |---|---|
-| Length | `m` `nm` `µm` `mm` `km` `in` `yd` `ft` `mi.` |
+| Length | `m` `nm` `µm` `mm` `cm` `km` `in` `yd` `ft` `mi.` |
 | Weight | `g` `ng` `µg` `mg` `kg` `oz.` `lb` |
 | Pressure | `Pa` `hPa` `bar` `atm` `mmHg` |
 | Energy | `J` `kJ` `Cal` `kCal` |
